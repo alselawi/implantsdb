@@ -1,0 +1,39 @@
+.classification {
+	display: flex;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    margin: 0 auto;
+	margin-top: 8px;
+	margin-bottom: 8px;
+    width: 100vw;
+    padding: 5px;
+    max-width: 500px;
+	.feature {
+        flex-grow: 1;
+        padding: 15px 10px;
+        font-size: 13px;
+        border: 1px solid #eee;
+        color: #757575;
+        border-radius: 12px;
+        background: linear-gradient(to bottom, #FAFAFA, #EEEEEE);
+        margin: 10px 5px;
+        position: relative;
+		img {
+			width: 75px;
+            margin-bottom: 3px;
+		}
+        .number {
+            position: absolute;
+            top: -10px;
+            width: 50px;
+            left: calc(50% - 25px);
+            background-color: #fff;
+            padding: 3px;
+            border-radius: 3px;
+            border: 1px solid #e3e3e3;
+        }
+	}
+}

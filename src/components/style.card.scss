@@ -1,0 +1,65 @@
+.popular-implants {
+    background: #f3f3f3;
+    border-top: 1px solid #e3e3e3;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    width:120%;
+    margin-left: -10%;
+    padding: 0.5rem 0 1rem 0;
+    .list {
+        margin-left: 9%;
+    }
+    .heading {
+        text-align: center;
+        padding: 8px 0 6px;
+        color: #757575;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+}
+
+.implant-card {
+    width: 150px;
+    height: 200px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    margin: 8px;
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.3;
+    }
+    .background {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('https://imgs.implantsdb.com/2161743660.webp');
+        background-size: cover;
+        background-position: center;
+        -filter: blur(1.5px);
+        transform: scale(1.2) rotate(-25deg);
+    }
+    .content {
+        color: #fff;
+        position: relative;
+        height: 100%;
+        align-content: end;
+        text-shadow: 1px 1px 1px #000;
+        h5 {
+            font-size: 13px;
+        }
+        p {
+            font-size: 10px;
+        }
+    }
+}

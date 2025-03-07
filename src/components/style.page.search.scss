@@ -1,0 +1,183 @@
+.ms-Layer--fixed {
+	background: rgba(0, 0, 0, 0.2);
+	visibility: visible;
+	.ms-Callout {
+		width: 300px;
+		.feature-filter .icon {
+			width: 25px;
+		}
+		.ms-ComboBox-header {
+			background: #fafafa;
+			border-top: 1px solid #e0e0e0;
+			border-bottom: 1px solid #e0e0e0;
+			img {
+				display: none;
+			}
+		}
+		.is-checked {
+			background: #0089d414;
+		}
+	}
+}
+.search-page {
+	.list {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		height: calc(100vh - 235px);
+		overflow-y: auto;
+		margin: 5px;
+		border-radius: 4px;
+		box-shadow: 0 0 15px rgba(41, 36, 36, 0.2);
+		padding: 2px;
+		border: 1px solid #e0e0e0;
+		padding-bottom: 50px;
+		.implant-card {
+			width: 100px;
+			height: 135px;
+			flex-grow: 1;
+			margin: 2px;
+			border-radius: 4px;
+		}
+		.no-implant-found {
+			text-align: center;
+			width: 100%;
+			padding: 10px;
+			font-size: 14px;
+			color: #424242;
+			margin-top: 20px;
+			span {
+				font-size: 48px;
+				color: #e0e0e0;
+			}
+		}
+	}
+	.load-more-button {
+		width: 100%;
+		text-align: center;
+		position: fixed;
+		bottom: 60px;
+		.ms-Button {
+			width: 100%;
+		}
+	}
+
+	.show-more-button {
+		flex: none;
+		background: #fff;
+		border: 1px solid #2196f3;
+		padding: 5px;
+		border-radius: 3px;
+		flex-grow: 1;
+		margin: 10px;
+		text-align: center;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		flex: none;
+		flex-grow: 1;
+		flex-shrink: 0;
+		width: 90%;
+	}
+
+	.search-control {
+		padding: 5px 10px;
+		.top-text {
+			font-size: 12px;
+			text-align: center;
+			color: #424242;
+			font-style: italic;
+			margin-top: 10px;
+			margin: 0 auto;
+			padding: 3px;
+			border-radius: 10px;
+			margin-top: 5px;
+			a {
+				margin-left: 5px;
+				color: #fff;
+				background-color: #0078d4;
+				padding: 2px 7px;
+				border-radius: 3px;
+				i {
+					margin-right: 5px;
+					position: relative;
+					top: 2px;
+				}
+			}
+		}
+		background: #f4f4f4;
+		.tag-picker-container {
+			position: relative;
+			.label {
+				i {
+					margin-right: 10px;
+					color: #0078d4;
+					position: relative;
+					top: 2px;
+					font-size: 15px;
+				}
+				position: absolute;
+				z-index: 999;
+				top: 5px;
+				left: 12px;
+				font-size: 14px;
+				color: #606060;
+			}
+			.ms-BasePicker-input {
+				display: none;
+			}
+		}
+
+		.tag-picker .ms-BasePicker-text {
+			border: 1px solid #605e5c;
+			background: #fff;
+			overflow-x: auto;
+			padding: 3px 3px 0;
+			.ms-BasePicker-itemsWrapper {
+				height: 40px;
+				max-width: unset;
+				flex-direction: column;
+				padding: 0;
+				margin: 0;
+			}
+			&:after {
+				content: none;
+			}
+		}
+		.ms-SearchBox {
+			margin-bottom: 5px;
+		}
+		.ms-Image-image {
+			width: 19px;
+		}
+		.ms-ComboBox-container {
+			visibility: hidden;
+			height: 0;
+		}
+		.ms-BasePicker {
+			.selected-feature {
+				background: #f4f4f4;
+				border: 1px solid #e0e0e0;
+				border-radius: 3px;
+				padding: 2px;
+				margin: 2px;
+				display: inline-block;
+				.feature-name {
+					position: relative;
+					top: -10px;
+					font-size: 12px;
+				}
+				img.feature-icon {
+					width: 25px;
+					position: relative;
+					top: -1px;
+				}
+				.ms-Icon-imageContainer {
+					height: 100%;
+					.ms-Image {
+						margin-top: 5px;
+					}
+				}
+			}
+		}
+	}
+}

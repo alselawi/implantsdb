@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="body_threads__v_shaped" transform="translate(51.000000, -1.000000)">
+            <polygon id="Path-4" fill="#CACACA" points="0.702807617 0.832164333 24.931808 19.02682 0.702807617 30.9256748 24.931808 46.6219732 0.702807617 60.0240138 24.931808 76.5009557 0.702807617 87.4776382 24.931808 104.015661 0.702807617 116.677282 23.3012463 129.441698 77.0449785 129.441698 77.1567119 0.832164333"></polygon>
+            <polyline id="Line-Copy" stroke="#0465CE" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" transform="translate(12.869830, 61.940708) scale(-1, 1) translate(-12.869830, -61.940708) " points="0.5 46.3814169 25.2396607 60.5 1.23966068 77.5"></polyline>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,102 @@
+.company-page {
+	background-color: #f8f8f8;
+	margin-top: -10px;
+	padding-top: 10px;
+	height: 100%;
+	.heading {
+		display: flex;
+		border: 1px solid #e3e3e3;
+		border-radius: 5px;
+		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+		background-color: #fff;
+		padding: 10px 5px;
+		margin: 10px;
+		overflow: hidden;
+		.logo img {
+			height: 30px;
+		}
+		.text {
+			margin-left: 5px;
+			display: flex;
+			img {
+				height: 30px;
+			}
+			.name {
+				margin-left: 10px;
+				.title {
+					font-size: 18px;
+					font-weight: bold;
+					color: #424242;
+				}
+				.website {
+					background-color: #e1f5fe;
+					padding: 3px;
+					border: 1px solid #b3e5fc;
+					border-radius: 3px;
+					margin-top: 2px;
+					max-width: 120px;
+					a {
+						max-width: 120px;
+						font-size: 13px;
+						display: block;
+						white-space: nowrap;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						text-transform: lowercase;
+					}
+				}
+			}
+		}
+	}
+	.about {
+		max-width: 600px;
+		margin: 0 auto;
+		.profile-short,
+		.profile-long {
+			padding: 10px;
+			text-align: justify;
+			font-size: 15px;
+			color: #424242;
+		}
+        .logo {
+            text-align: center;
+            img {
+                max-width: 300px;
+            }
+        }
+		.country {
+			display: flex;
+			align-items: center;
+			margin-top: 10px;
+			img {
+				width: 30px;
+				height: 30px;
+				margin-right: 10px;
+			}
+			font-size: 18px;
+			font-weight: bold;
+			color: #424242;
+		}
+	}
+	.implants {
+		padding: 10px 0;
+		position: absolute;
+		width: 100vw;
+		left: 0;
+		top: 0;
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;            
+        }
+	}
+	.cds--tab--list {
+		flex-grow: 1;
+	}
+	.cds--tab-content {
+		position: relative;
+		height: calc(100vh - 230px);
+		overflow-y: scroll;
+		background: #fff;
+	}
+}

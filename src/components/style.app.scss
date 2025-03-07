@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	font-family: "Nunito Sans";
+}
+
+.app {
+	width: 100vw;
+	header.app-header {
+		display: flex;
+		justify-content: space-between;
+		z-index: 100;
+		position: relative;
+		section.logo {
+			padding-top: 5px;
+			margin: 0 auto;
+			img {
+				height: 40px;
+			}
+		}
+	}
+	main.page {
+		width: 100vw;
+		height: calc(100vh - 100px);
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	.footer-tabs {
+		background-color: #fff;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		border: none;
+		border-top: 1px solid #e3e3e3;
+		.cds--content-switcher {
+			height: 60px;
+		}
+		button {
+			height: 60px;
+			border: none;
+			border-right: none !important;
+			border-left: none !important;
+			text-align: center;
+			.cds--content-switcher__label {
+				width: 100%;
+			}
+		}
+	}
+}
+
+/* Define keyframes for the swipe-in effect from right to left */
+@keyframes swipeIn {
+	from {
+		opacity: 0;
+		transform: translateX(100%);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+/* Define keyframes for the swipe-in effect from left to right */
+@keyframes swipeInLeft {
+	from {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+/* Define the class that will trigger the swipe-in animation from right */
+.swipe-right {
+	animation: swipeIn 0.5s ease-out forwards;
+}
+
+/* Define the class that will trigger the swipe-in animation from left */
+.swipe-left {
+	animation: swipeInLeft 0.5s ease-out forwards;
+}
